@@ -20,7 +20,6 @@ npm run build
 sudo apt install -y libfontconfig1 libfontconfig1-dev
 sudo wget "https://github.com/ariya/phantomjs/releases/download/2.1.3/phantomjs" -O /usr/local/bin/phantomjs
 sudo chmod +x /usr/local/bin/phantomjs
-cd ~
 wget http://archive.ubuntu.com/ubuntu/pool/main/i/icu/libicu55_55.1-7_amd64.deb -O /tmp/libicu55_55.1-7_amd64.deb
 sudo dpkg -i /tmp/libicu55_55.1-7_amd64.deb
 rm /tmp/libicu55_55.1-7_amd64.deb

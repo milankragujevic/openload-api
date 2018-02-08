@@ -1,0 +1,34 @@
+{
+  "name": "openload-api",
+  "version": "1.0.3",
+  "description": "Openload Nodejs API for fetching stream URLs with PhantomJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./app.js --out-dir dist/ --presets=es2015 --plugins=transform-runtime,transform-es2015-modules-commonjs",
+    "start": "node dist/app.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "memory-cache": "^0.2.0",
+    "youtube-dl": "^1.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milankragujevic/openload-api.git"
+  },
+  "keywords": [
+    "openload"
+  ],
+  "author": "Milan Kragujević",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milankragujevic/openload-api/issues"
+  },
+  "homepage": "https://github.com/milankragujevic/openload-api#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
